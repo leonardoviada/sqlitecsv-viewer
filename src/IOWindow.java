@@ -77,6 +77,7 @@ public class IOWindow extends JFrame {
                             e1.printStackTrace();
                         }
                         break;
+                    case "db":
                     case "sqlite3":
                         System.out.println("SQLITE");
                         try {
@@ -85,6 +86,7 @@ public class IOWindow extends JFrame {
                             ioException.printStackTrace();
                         }
                         break;
+
                 }
             }
         });
